@@ -2,49 +2,16 @@ public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
+        // Array declaration + initialization together
         String[] banner = {
 
-            String.join("  ",
-                    " ***** ",
-                    " ***** ",
-                    "****** ",
-                    " ***** "),
-
-            String.join("  ",
-                    "*     *",
-                    "*     *",
-                    "*     *",
-                    "*     *"),
-
-            String.join("  ",
-                    "*     *",
-                    "*     *",
-                    "****** ",
-                    "*"),
-
-            String.join("  ",
-                    "*     *",
-                    "*     *",
-                    "*      ",
-                    " ***** "),
-
-            String.join("  ",
-                    "*     *",
-                    "*     *",
-                    "*      ",
-                    "      *"),
-
-            String.join("  ",
-                    "*     *",
-                    "*     *",
-                    "*      ",
-                    "*     *"),
-
-            String.join("  ",
-                    " ***** ",
-                    " ***** ",
-                    "*      ",
-                    " ***** ")
+            String.join("  ", " ***** ", " ***** ", "****** ", " ***** "),
+            String.join("  ", "*     *", "*     *", "*     *", "*     *"),
+            String.join("  ", "*     *", "*     *", "*     * ", "*"),
+            String.join("  ", "*     *", "*     *", "****** ", " ***** "),
+            String.join("  ", "*     *", "*     *", "*      ", "      *"),
+            String.join("  ", "*     *", "*     *", "*      ", "*     *"),
+            String.join("  ", " ***** ", " ***** ", "*      ", " ***** ")
 
         };
 
